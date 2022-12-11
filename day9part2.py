@@ -32,7 +32,7 @@ class Solution(object):
             horizontalDiff = h[0]-t[0]
             verticalDiff = h[1]-t[1]
 
-            if abs(horizontalDiff) <= 1 and abs(verticalDiff) <= 1 or abs(horizontalDiff) <= 1 and abs(verticalDiff) <= 1:
+            if abs(horizontalDiff) <= 1 and abs(verticalDiff) <= 1:
                 return t
 
             elif verticalDiff == 0:
